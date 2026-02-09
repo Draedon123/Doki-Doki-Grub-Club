@@ -10,7 +10,7 @@ pub fn generate_backdrop(
   width: u32,
   height: u32,
 ) -> Result<(), Box<dyn Error>> {
-  let background = ImageReader::open("./assets/menu_bg.png")?
+  let background = ImageReader::open("./bg_gen/assets/menu_bg.png")?
     .with_guessed_format()?
     .decode()?;
 

@@ -10,7 +10,7 @@ pub fn generate_sidebar(
   width: u32,
   height: u32,
 ) -> Result<(), Box<dyn Error>> {
-  let sidebar = ImageReader::open("./assets/main_menu.png")?
+  let sidebar = ImageReader::open("./bg_gen/assets/main_menu.png")?
     .with_guessed_format()?
     .decode()?;
 
