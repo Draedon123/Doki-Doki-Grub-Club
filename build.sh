@@ -1,3 +1,3 @@
-cd bg_gen
+cd generation
 cargo build --release
-cp target/release/bg_gen ../gen_bg
+cp target/release/generation ../generate
