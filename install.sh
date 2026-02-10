@@ -8,6 +8,10 @@ if [[ ! -e generate ]]; then
   exit 1
 fi
 
+if [[ ! -d ddgc ]]; then
+  mkdir ddgc
+fi
+
 ./generate $width $height
 
 cp -rf ./ddgc /boot/grub/themes
