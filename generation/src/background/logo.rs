@@ -10,7 +10,7 @@ pub fn generate_logo(
   _width: u32,
   height: u32,
 ) -> Result<(), Box<dyn Error>> {
-  let logo = ImageReader::open("./bg_gen/assets/logo.png")?
+  let logo = ImageReader::open("./generation/assets/logo.png")?
     .with_guessed_format()?
     .decode()?;
 

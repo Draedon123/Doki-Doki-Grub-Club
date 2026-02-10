@@ -10,4 +10,6 @@ fi
 
 ./generate $width $height
 
-mv ./background.png ./theme/background.png
+cp -rf ./ddgc /boot/grub/themes
+
+update-grub

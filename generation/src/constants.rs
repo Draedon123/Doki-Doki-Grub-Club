@@ -13,3 +13,10 @@ pub const MONIKA_ZOOM: f32 = 1.0;
 
 pub const YURI_POSITION: (u32, u32) = (600, 335);
 pub const YURI_ZOOM: f32 = 0.6;
+
+pub const NAVIGATION_X: u32 = 80;
+pub const NAVIGATION_SPACING: u32 = 6;
+pub const NAVIGATION_OUTLINE: u32 = 4;
+
+pub const INTERFACE_FONT_SIZE: u32 = 24;
+pub const TERMINAL_FONT_SIZE: u32 = 16;

@@ -20,7 +20,7 @@ pub fn generate_background(width: u32, height: u32) -> Result<(), Box<dyn Error>
     &mut canvas,
     width,
     height,
-    "./bg_gen/assets/menu_art_y.png",
+    "./generation/assets/menu_art_y.png",
     YURI_POSITION.0,
     YURI_POSITION.1,
     YURI_ZOOM,
@@ -29,7 +29,7 @@ pub fn generate_background(width: u32, height: u32) -> Result<(), Box<dyn Error>
     &mut canvas,
     width,
     height,
-    "./bg_gen/assets/menu_art_n.png",
+    "./generation/assets/menu_art_n.png",
     NATSUKI_POSITION.0,
     NATSUKI_POSITION.1,
     NATSUKI_ZOOM,
@@ -38,7 +38,7 @@ pub fn generate_background(width: u32, height: u32) -> Result<(), Box<dyn Error>
     &mut canvas,
     width,
     height,
-    "./bg_gen/assets/menu_art_s.png",
+    "./generation/assets/menu_art_s.png",
     SAYORI_POSITION.0,
     SAYORI_POSITION.1,
     SAYORI_ZOOM,
@@ -47,13 +47,13 @@ pub fn generate_background(width: u32, height: u32) -> Result<(), Box<dyn Error>
     &mut canvas,
     width,
     height,
-    "./bg_gen/assets/menu_art_m.png",
+    "./generation/assets/menu_art_m.png",
     MONIKA_POSITION.0,
     MONIKA_POSITION.1,
     MONIKA_ZOOM,
   )?;
 
-  canvas.save("./background.png")?;
+  canvas.save("./ddgc/background.png")?;
 
   Ok(())
 }

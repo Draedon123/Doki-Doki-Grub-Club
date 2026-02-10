@@ -1,3 +1,5 @@
 /logo.xcf
-generation/target
+/generation/target
 /generate
+/build_debug.sh
+ddgc
