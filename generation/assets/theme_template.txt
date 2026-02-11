@@ -71,19 +71,6 @@ terminal-font: "Riffic Free Bold __TERMINAL_FONT_SIZE__"
 }
 
 + boot_menu {
-	left = __NAVIGATION_X__
-	top = 60%
-	width = 80%
-	item_font = "Riffic Free Bold __MAIN_FONT_SIZE__"
-	item_color = "#b59"
-	selected_item_font = "Riffic Free Bold __MAIN_FONT_SIZE__"
-	selected_item_color= "#fac"
-	item_height = __MAIN_FONT_SIZE__
-	item_padding = 0
-	item_spacing = __NAVIGATION_SPACING__
-}
-
-+ boot_menu {
 	left = __NAVIGATION_OUTLINE_RIGHT_X__
 	top = 60%
 	width = 80%
