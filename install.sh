@@ -14,6 +14,10 @@ fi
 
 ./generate $width $height
 
-cp -rf ./ddgc /boot/grub/themes
+if [[ -d /boot/grub/themes/ddgc ]]; then
+  rm -r /boot/grub/themes/ddgc
+fi
+
+cp -r ./ddgc /boot/grub/themes
 
 update-grub
